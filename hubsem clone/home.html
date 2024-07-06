@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+   
+    <link rel="stylesheet" href="https://hubsem.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+
+</head>
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+        });
+      </script>
+       <!-- Swiper JS -->
+    
+       <div id="home-page">
+    <div id="header">
+            <!-- Header Strip Start -->
+             <div id="headerStrip-clock">
+                <i><img src="./assets/clock icon.png" alt=""></i>
+                <div ><h4>Monday - Friday : 10 AM - 6 PM</h4> </div>
+                <div id="headericon">
+                    <i class="fa fa-brands fa-facebook-f"></i>
+                    <i class="fa fa-brands fa-instagram"></i>
+                    <i class="fa fa-brands fa-twitter"></i>
+                    <i class="fa fa-brands fa-linkedin"></i>
+                    <i class="fa fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <!-- Header Strip Ends -->
+            <!-- Header Contact Start -->
+             <div id="headerContact">
+                <div id="logo"><img src="./assets/hubsem-logo.png" alt=""></div>
+                <div class="contact">
+                <div id="contact">
+                    <i class="fa fa-solid fa-phone"></i>
+                    <div>
+                        <h3>Reach Us</h3>
+                        <h5>+91 9500590134</h5>
+                    </div>
+                </div>
+                <div id="contact" class="address">
+                   
+                    <i class="fa fa-regular fa-address-card"></i>
+                    
+                    <div>
+                        <h3>Office Address</h3>
+                    
+                        <h5>#714A,Spencer Plaza, Phase II,7th Floor, #769, Anna Salai,
+                             Thousand Light, Chennai-600002</h5>
+                    </div>
+                </div>
+                <div id="contact">
+                   
+                    <i class="fa fa-regular fa-envelope"></i>
+                    
+                    <div>
+                        <h3>Send us an email</h3>
+                   
+                        <h5>info@hubsem.com</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+
+            <!-- Header Contact Ends -->
+             <!-- Hamburger icon -->
+            <!-- NavBar starts -->
+         
+         <nav class="nav">
+            <input class="side-menu" type="checkbox" id="side-menu"/>
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+            <span id="slide">slide</span>
+            <ul id="sidemenu" class="menu">
+                <li><img src="./assets/hubsem-logo.png" width="100px" alt=""></li>
+                <li><a id="active"  href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li id="service-dropdown"><a href="services.html">SERVICES <i class="fa fa-solid fa-angle-down"></i></a>
+                    <div id="service-list">
+                        <div id="service-left">
+                            <h2>WEB DESIGN & DEVDLOPMENT</h2>
+                            <div>
+                                <ul>
+                                    <li>Static Website</li>
+                                    <li>Dynamic Website</li>
+                                    <li>Ecommerce Website</li>
+                                    <li>Website Revamp</li>
+                                    <li>Website Maintenance</li>
+                                </ul>
+                                
+                            </div>
+                            <br><br>
+                            <h2>ADVANCED</h2>
+                            <div>
+                                <ul>
+                                    <li>Cloud Computing</li>
+                                    <li>Machine Learning</li>
+                                    <li>Artificial Intelligence</li>
+                                    <li>Cyber Security</li>
+                                    <li>Data Science</li>
+                                </ul>
+                                
+                            </div>
+                         </div>
+                        <div id="service-mid">
+                            <h2>GRAPHIC DESIGN</h2>
+                            <div>
+                                <ul>
+                                    <li>Logo Design</li>
+                                    <li>Brochures / Posters / Flyers</li>
+                                    <li>Marketing Cards</li>
+                                    <li>Photography + Videography</li>
+                                    <li>Mockup Templates</li>
+                                </ul>
+                                
+                            </div>
+                            <br>
+                            <br>
+                            <h2>SOFTWARE DEVELOPMENT</h2>
+                            <div>
+                                <ul>
+                                    <li>Web App Development</li>
+                                    <li>Mobile App Development</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        <div id="service-right">
+                            <h2>DIGITAL MARKETING</h2>
+                            <div>
+                                <ul>
+                                    <li>Search Engine Optimization (SEO)</li>
+                                    <li>Social Media Marketing (SMM)</li>
+                                    <li>Search Engine Marketing (SEM)</li>
+                                    <li>Social Media Optimization (SMO)</li>
+                                    <li>Content Marketing</li>
+                                    <li>Email Marketing</li>
+                                    <li>SMS Marketing</li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li id="product-dropdown"><a href="#products">PRODUCTS <i class="fa fa-solid fa-angle-down"></i></a>
+                <ul id="product-list">
+                    <li>Online Accounting Software</li><hr>
+                    <li>Online Ticket Booking Software</li><hr>
+                    <li>Online School Management Software</li><hr>
+                    <li>Hospital Management Software</li><hr>
+                    <li>Inventory Management Software</li><hr>
+                    <li>CRM SOFTWARE</li><hr>
+                    <li>Payroll Software</li><hr>
+                    <li>Restaurant Food Delivery App</li><hr>
+                    <li>Grocery Mobile App</li><hr>
+                    <li>College EPR</li>
+                </ul>
+                </li>
+                <li><a  href="intern.html">INTERNSHIP</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                
+               
+            </ul>
+            <a id="button" href="contact.html">GET A QUOTE </a>
+        </nav> 
+        <!-- NavBar Ends -->
+            <!-- section Start -->
+             <section >
+                <div id="cover-content" 
+                data-aos="slide-right"
+                data-aos-delay="500"
+                data-aos-once="true">
+                <h1 data-aos="zoom-in" data-aos-delay="1200" data-aos-once="true">Elevating Business through Technology - 
+                    Your Gateway to IT Excellence</h1>
+                </div>
+                <img data-aos="fade-in" data-aos-delay="200" src="./assets/home cover.jpg" alt="">
+            </section> 
+            <!-- section Ends -->
+             <div id="terms">
+                <h4>SIMPLIFY , STREAMLINE , SUCCEED</h4>
+                <h1>A step flow process for delivering IT services</h1>
+             </div>
+             <div id="svg-icon">
+                <div>
+                    <i class="fa fa-regular fa-comments"></i>
+                    <p>Requirement Analysis</p>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-pencil"></i>
+                    <p>Design</p>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-code"></i>
+                    <p>Coding Impelementation</p>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-server"></i>
+                    <p>Deployment</p>
+                </div>
+                <div>
+                    <i class="fa fa-solid fa-globe"></i>
+                    <p>Maintenance</p>
+                </div>
+            </div>
+            <!-- Article start -->
+            <!-- <div id="container" > -->
+                <div id="article">
+                    <img src="./assets/article cover.jpg" alt="">
+                    <div id="article-content">
+                        <h4>WELCOME TO HUBSEM SOLUTIONS</h4>
+                        <h1>Innovative IT Services for <br> Seamless Business Operations</h1>
+                        <p> Harum, repudiandae? Corrupti vel quia qui accusamus fuga porro molestiae repellendus minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, veritatis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est debitis, molestias ipsa vitae dolor non nisi et consequuntur voluptatum odit obcaecati fuga cupiditate maiores
+                            voluptatem delectus explicabo voluptate aliquam itaque adipisci? Molestiae eius libero magni nostrum dicta ducimus dolorem dolorum neque saepe ab, similique iusto? Soluta 
+                            perferendis autem harum hic!
+                        </p>
+                        <div id="block">
+                            <i class="fa fa-solid fa-laptop"></i>
+                            <div>
+                                <h4>Customized Solutions</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odio debitis explicabo, non magni itaque deleniti quia
+                                    quos beatae sequi. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div id="block">
+                            <i class="fa fa-brands fa-codepen"></i>
+                            <div>
+                                <h4>Customized Solutions</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia odio debitis explicabo, non magni itaque deleniti quia
+                                    quos beatae sequi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, sapiente. Lorem ipsum dolor sit amet.
+                                </p>
+                            </div>
+                           
+                        </div>
+                        <a>KNOW OUR HISTORY</a>
+                    </div>
+                    
+                </div>
+            <!-- Article ends -->
+
+            <!-- Services starts -->
+                <div id="services">
+                    <div id="service-head">
+                        <div>
+                            <h4>HAVE A LOOK AT</h4>
+                        <h1>Our Services</h1>
+                        </div>
+                        <a>VIEW OUR SERVICES</a>
+                    </div>
+                    <div class="container">
+                        <div class="image-container">
+                            <img src="assets/Service-1.jpg" />
+                            <div  class="after">
+                                <img src="./assets/service-icon 1.png" alt="">
+                                <h1 >Heading</h1>
+                                <br>
+                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quia!</p>
+                            <br>
+                            
+                            </div>
+                            
+                        </div>
+                        <div class="image-container">
+                            <img src="./assets/Service-2.jpg" />
+                            <div class="after">
+                                <img src="./assets/service-icon 2.png" alt="">
+                                <h1>Heading</h1>
+                                <br>
+                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illum!</p>
+                            <br>
+                            <button>Read More</button>
+                        </div>
+                        </div>
+                        <div class="image-container">
+                            <img src="./assets/Service-3.jpg" />
+                            <div class="after">
+                                <img src="./assets/service-icon 3.png" alt="">
+                                <h1>Heading</h1>
+                                <br>
+                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illum!</p>
+                            <br>
+                            <button>Read More</button>
+                        </div>
+                        </div>
+                        <div class="image-container">
+                            <img src="./assets/Service-4.jpg" />
+                            <div class="after">
+                                <img src="./assets/service-icon 4.png" alt="">
+                                <h1>Heading</h1>
+                                <br>
+                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illum!</p>
+                            <br>
+                            <button>Read More</button>
+                        </div>
+                        </div>
+                        <div class="image-container">
+                            <img src="./assets/Service-5.jpg" />
+                            <div class="after">
+                                <img src="./assets/service-icon 5.png" alt="">
+                                <h1>Heading</h1>
+                                <br>
+                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illum!</p>
+                            <br>
+                            <button>Read More</button>
+                        </div>
+                        </div>
+                        <div class="image-container">
+                            <img src="./assets/Service-6.jpg" />
+                            <div class="after">
+                                <img src="./assets/service-icon 6.png" alt="">
+                                <h1>Heading</h1>
+                                <br>
+                            <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illum!</p>
+                            <br>
+                            <button>Read More</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Services ends -->
+             <!-- Product starts -->
+                    <div id="container">
+                        <div id="product">
+                            <div id="product-head">
+                                <h4>KNOW OUR EXCLUSIVE</h4>
+                        <h1>Products</h1>
+                            </div>
+                <div id="product-item">
+             <div class="slide-container swiper"  >
+                <div class="slide-content" >
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+                         <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-1.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                    <div>
+                                        <h2 class="name">Product 1</h2>
+                                        <button>View Product</button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-2.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                <div>
+                                    <h2 class="name">Product 2</h2>
+                                    <button>View Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-3.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                    <div>
+                                    <h2 class="name">Product 3</h2>
+                                    <button>View Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-5.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                    <div>
+                                    <h2 class="name">Product 4</h2>
+                                    <button>View Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-6.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                    <div>
+                                    <h2 class="name">Product 5</h2>
+                                    <button>View Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-7.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                    <div>
+                                    <h2 class="name">Product 6</h2>
+                                    <button>View Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-8.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                    <div>
+                                    <h2 class="name">Product 7</h2>
+                                    <button>View Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-9.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                    <div>
+                                    <h2 class="name">Product  8</h2>
+                                    <button>View Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide" >
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                   <img src="./assets/Product-10-683x1024.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <div class="layer">
+                                    <div>
+                                    <h2 class="name">Product   9</h2>
+                                    <button>View Product</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+                </div>
+                        </div>
+                    </div>
+
+
+                   <!-- Swiper JS -->
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+      <!--Uncomment this line-->
+    <script src="script.js"></script>
+   
+             <!-- Product ends -->
+              <!-- contact starts -->
+               <div id="home-contact">
+                
+                <div id="left-contact">
+                    <h3>FOLLOW US ON</h3>
+                    <div id="contact-icon">
+                    <i class="fa fa-brands fa-facebook-f"></i>
+                    <i class="fa fa-brands fa-instagram"></i>
+                    <i class="fa fa-brands fa-twitter"></i>
+                    <i class="fa fa-brands fa-linkedin"></i>
+                    <i class="fa fa-brands fa-youtube"></i>
+                    </div>
+                    <p> <i>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quos maxime possimus nulla.</i>  </p>
+                     <div id="block-content">
+                        <i class=" fa fa-solid fa-phone"></i>
+                        <div>
+                            <h4>CALL US TODAY</h4>
+                            <p> +91 123456789</p>
+                        </div>
+                     </div>   
+                     <div id="block-content">
+                        <i class="fa fa-solid fa-envelope"></i>
+                        <div>
+                            <h4>SEND US AN EMAIL</h4>
+                            <p> info@hubsem.com</p>
+                        </div>
+                     </div>   
+                     <div id="block-content">
+                        <i class="fa fa-solid fa-map"></i>
+                        <div>
+                            <h4>OFFICE ADDRESS</h4>
+                            <p> #714A, Spencer Plaza,Phase II, 7th Floor,#769,
+                                Anna Salai, Thousand Lights,Chennai-600002,Tamilnadu,India
+                            </p>
+                        </div>
+                     </div>   
+                </div>
+                <div id="right-contact">
+                    <div id="right-head">
+                        <h4>STAY IN TOUCH</h4>
+                        <h3>Lets's Connect!</h3>
+                    </div>
+                    <div id="right-body">
+                        <input type="text" placeholder="Full name*">
+                        <input type="email" placeholder="Email*">
+                        <input type="number"  placeholder="Phone*">
+                        <h5>SERVICE OF INTEREST:</h5>
+                        <select name="" id="">
+                            <option value="option 1">-Please choose an option-</option>
+                            <option value="option 2">Web Application</option>
+                            <option value="option 3">Mobile Application</option>
+                            <option value="option 4">Web Design & Development</option>
+                            <option value="option 5">Graphic Design</option>
+                            <option value="option 6">Digital Marketing</option>
+                            <option value="option 7">Maintenance & Support</option>
+                        </select>
+                        <input type="text" placeholder="Description of Your IT Needs">
+                        <textarea cols="5" rows="2" placeholder="Additional Comments or Questions"></textarea>
+                        <button>SUBMIT</button>
+                    </div>
+                </div>
+               </div>
+
+               <!-- whatapp icon starts -->
+                <div id="whatapp-icon">
+                    <a href="https://web.whatsapp.com/"><p>For Enquiries</p><img src="./assets/whatapp icon.png" alt=""></a>
+                    
+                </div>
+                <!-- whatapp icon ends -->
+               <!-- contact ends -->
+                
+                <div id="footer">
+                    <div>
+                    <div id="f1">
+                        <img src="./assets/logo-white.png" alt="">
+                        <p>Lorem ipsum dolor  numquam  Lorem ipsum  sit amet. Lorem ipsum dolor sit amet. alias mollitia.</p>
+                    </div>
+                    <div id="f2">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="intern.html">Internship</a></li>
+                            <li><a href="contact.html">Contact US</a></li>
+                        </ul>
+                    </div>
+                    <div id="f3">
+                        <h5>Services</h5>
+                        <ul>
+                            <li><a href="">Web Applications</a></li>
+                            <li><a href="">Mobile Applications</a></li>
+                            <li><a href="">Web Design & Development</a></li>
+                            <li><a href="">Graphic Design</a></li>
+                            <li><a href="">Digital Marketing</a></li>
+                            <li><a href="">Maintenance & Support</a></li>
+                        </ul>
+                    </div>
+                    <div id="f4">
+                        <h5>Newsletter</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, blanditiis</p>
+                        <input type="text" placeholder="Enter your mail id">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                    </div>
+                    <div id="copyrights">
+                        <p>© Copyright 2023, Hubsem Software Solutions Pvt. Ltd. | All rights reserved.</p>
+                        
+                    </div>
+            </div>
+    </div>
+       </div>
+       
+            
+        <script>
+        // small screen js  menu bar
+        
+        
+            </script>
+</body>
+</html>
